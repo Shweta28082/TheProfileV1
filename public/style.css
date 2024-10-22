@@ -1,0 +1,111 @@
+.home-page {
+    font-family: Arial, sans-serif;
+  }
+/* ===================Header--Start============ */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+  
+  .header__link, .header__logo, .nav__item {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .nav {
+    display: flex;
+  }
+  
+  .nav__item {
+    margin-right: 20px;
+  }
+  
+/* ========================End===================== */
+  
+  
+  .hero {
+    background-image: url('path-to-hero-image');
+    background-size: cover;
+    color: burlywood;
+    padding: 100px 20px;
+  }
+  
+  .hero-content h1 {
+    font-size: 3em;
+  }
+  
+  .hero-content p {
+    font-size: 1.2em;
+  }
+  
+  .cta-button {
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    color: burlywood;
+    border: none;
+    cursor: pointer;
+  }
+  .search-filter {
+    padding: 20px;
+  }
+  
+  .search-filter form {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .search-filter input,
+  .search-filter select,
+  .search-filter button {
+    padding: 10px;
+  }
+  .featured-models {
+    padding: 40px 20px;
+    text-align: left;
+  }
+  
+  .featured-models h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .model-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .model-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 200px;
+  }
+  
+  .model-card img {
+    width: 100%;
+    height: auto;
+  }
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  .footer ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .footer ul li a {
+    color: white;
+    text-decoration: none;
+  }
+          
